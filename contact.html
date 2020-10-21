@@ -30,10 +30,12 @@
     <fieldset>
         <legend>Coordonnées</legend>
         <form action="destination.php" method="post" id="formulaire_contact"> 
-            <label for="name">Votre nom :  </label><input type="text" id="name" name="nom"><br>
-            <label for="prenom">Votre prenom :  </label><input type="text" id="prenom" name="prenom"><br>
-            <label for="commentaire">Votre commentaire </label><br>
-            <textarea name="commentaire"  id="commentaire" rows="10" cols="50"></textarea><br>
+            <label for="email">Votre email :  </label><input type="email" id="email" name="email" required><br>
+            <label for="name">Votre nom :  </label><input type="text" id="name" name="name" required><br>
+            <label for="prenom">Votre prenom :  </label><input type="text" id="prenom" name="prenom" required><br>
+            <label for="sujet">Sujet :  </label><input type="text" id="sujet" name="sujet"><br>
+            <label for="commentaire">Votre commentaire </label><br> <textarea name="commentaire"  id="commentaire" rows="10" cols="50" required></textarea><br>
+       <button type="submit">Envoyer</button>
         </form>
     </fieldset>
     <hr>
