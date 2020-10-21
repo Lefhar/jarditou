@@ -1,12 +1,117 @@
+body 
+{
+   /* taille de la police */
+font-size : 18px;
+  /* police de caractére */
+font-family : 'new roman';
+}
+nav{
+     /* couleur arriére plan de nav */
+   background-color: black;
+   width: 100%;
+   height: 53px;
+    margin: 13px 0px;
+   padding-top: 1px; 
+}
+nav a:hover{
+   color: rgb(241, 9, 9);
+}
+.menu li{
+   display: inline;
+   list-style: none;
+
+}
+
+a {
+     /* couleur par défaut des liens */
+   color: white;
+}
+a:hover
+{
+     /* couleur des liens au survole */
+     color: rgb(241, 9, 9);
+}
+a:visited{
+   /* couleur des liens déjà visité */
+   color: grey;
+}
+.post{
+   margin-right: 20%;
+   position: relative;
+}
+.pied{
+ 
+   
+}
+.colonnedroite {
+/* colonne de droite */
+
+   position: relative;
+   padding-left: 4px;
+   margin: 16px 1px 0px 10px;
+   width: 20%;
+   float: right;
+   background-color: grey;
+   border:1px transparent;
+   height: 500px;
+}
+.colonnedroite h2 {
+   /* colonne de droite */
+   
+    
+      padding-left: 2px;
+      float: lef;
+     
+   }
+.container {
+   /* largeur de la div contain */
+   width: 100%;
+   /*marge du container*/
+   margin: 2px 2px;
+   overflow: hidden;
+
+}
 .banner {
-width : 100% ;
+   /*logo */
+height: 200px;
+/* ne pas répéter l'image */
+background-repeat: no-repeat;
+/*position de l'image*/
+background-position: 0% 100%;
+/*url de l'image*/
+background-image: url('../../../src/img/promotion.jpg');
+/* couvre la taille en largeur */
+background-size: cover;
+-webkit-background-size: cover;
+}
+.logo {
+   /*banniere promotion */
+   height: 120px;
+   width: 100%;
 }
 
 .promo {
+/*promo*/
 width : 270px; 
 }
+/*div image du logo */
+.picturelogo {
+   width: 270px;
+   position: relative;
+   float: left;
 
+}
+.titresite {
+   position: relative;
+    float: right;
+   margin-right: 437px;
+   font-size: 33px;
+   margin-top: 24px;
+}
+/* épaisseur couleur des bordures du tableau */
 table, tr, td, th 
     { 
        border: 1px solid #000000;
     }
+
+
